@@ -17,6 +17,7 @@
 		5224471C25D24ED700D0221B /* Readme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5224471B25D24ED700D0221B /* Readme.swift */; };
 		5224471F25D24F1600D0221B /* Readme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5224471E25D24F1600D0221B /* Readme.swift */; };
 		5224472225D24F4300D0221B /* Readme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5224472125D24F4300D0221B /* Readme.swift */; };
+		525D827725D674120056333A /* Libraries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525D827625D674120056333A /* Libraries.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		5224471B25D24ED700D0221B /* Readme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Readme.swift; sourceTree = "<group>"; };
 		5224471E25D24F1600D0221B /* Readme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Readme.swift; sourceTree = "<group>"; };
 		5224472125D24F4300D0221B /* Readme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Readme.swift; sourceTree = "<group>"; };
+		525D827625D674120056333A /* Libraries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Libraries.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 		522446FC25D24D9A00D0221B /* MFS_sprint_1 */ = {
 			isa = PBXGroup;
 			children = (
+				525D827525D674050056333A /* Libraries */,
 				5224471625D24DE300D0221B /* Utilities */,
 				5224471525D24DBD00D0221B /* Support */,
 				5224471425D24DAE00D0221B /* Controller */,
@@ -117,6 +120,14 @@
 				5224471825D24E8D00D0221B /* ReadMe.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		525D827525D674050056333A /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				525D827625D674120056333A /* Libraries.swift */,
+			);
+			path = Libraries;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +207,7 @@
 				522446FE25D24D9A00D0221B /* AppDelegate.swift in Sources */,
 				5224472225D24F4300D0221B /* Readme.swift in Sources */,
 				5224470025D24D9A00D0221B /* SceneDelegate.swift in Sources */,
+				525D827725D674120056333A /* Libraries.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
